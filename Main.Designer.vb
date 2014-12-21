@@ -35,7 +35,7 @@ Partial Class Main
         '
         'Open
         '
-        Me.Open.Location = New System.Drawing.Point(12, 61)
+        Me.Open.Location = New System.Drawing.Point(12, 58)
         Me.Open.Name = "Open"
         Me.Open.Size = New System.Drawing.Size(75, 23)
         Me.Open.TabIndex = 0
@@ -53,7 +53,7 @@ Partial Class Main
         '
         'Save
         '
-        Me.Save.Location = New System.Drawing.Point(12, 90)
+        Me.Save.Location = New System.Drawing.Point(12, 95)
         Me.Save.Name = "Save"
         Me.Save.Size = New System.Drawing.Size(75, 23)
         Me.Save.TabIndex = 2
@@ -63,7 +63,8 @@ Partial Class Main
         'OpenT
         '
         Me.OpenT.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.OpenT.Location = New System.Drawing.Point(95, 64)
+        Me.OpenT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.OpenT.Location = New System.Drawing.Point(93, 61)
         Me.OpenT.Name = "OpenT"
         Me.OpenT.Size = New System.Drawing.Size(327, 20)
         Me.OpenT.TabIndex = 3
@@ -71,7 +72,8 @@ Partial Class Main
         'SaveT
         '
         Me.SaveT.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.SaveT.Location = New System.Drawing.Point(95, 93)
+        Me.SaveT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.SaveT.Location = New System.Drawing.Point(93, 98)
         Me.SaveT.Name = "SaveT"
         Me.SaveT.Size = New System.Drawing.Size(327, 20)
         Me.SaveT.TabIndex = 4
@@ -122,7 +124,7 @@ Partial Class Main
         Me.MinimumSize = New System.Drawing.Size(450, 200)
         Me.Name = "Main"
         Me.Text = "FuzzyBlack"
-        Me.TransparencyKey = System.Drawing.Color.White
+        Me.TransparencyKey = System.Drawing.Color.Transparent
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
