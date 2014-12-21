@@ -62,6 +62,7 @@ Partial Class Main
         '
         'OpenT
         '
+        Me.OpenT.BackColor = System.Drawing.Color.WhiteSmoke
         Me.OpenT.Location = New System.Drawing.Point(95, 64)
         Me.OpenT.Name = "OpenT"
         Me.OpenT.Size = New System.Drawing.Size(327, 20)
@@ -69,6 +70,7 @@ Partial Class Main
         '
         'SaveT
         '
+        Me.SaveT.BackColor = System.Drawing.Color.WhiteSmoke
         Me.SaveT.Location = New System.Drawing.Point(95, 93)
         Me.SaveT.Name = "SaveT"
         Me.SaveT.Size = New System.Drawing.Size(327, 20)
@@ -105,6 +107,7 @@ Partial Class Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Gainsboro
         Me.ClientSize = New System.Drawing.Size(434, 162)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
