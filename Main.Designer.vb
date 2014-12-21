@@ -119,7 +119,7 @@ Partial Class Main
         Me.MinimumSize = New System.Drawing.Size(450, 200)
         Me.Name = "Main"
         Me.Text = "FuzzyBlack"
-        Me.TransparencyKey = System.Drawing.Color.Transparent
+        Me.TransparencyKey = System.Drawing.Color.White
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
